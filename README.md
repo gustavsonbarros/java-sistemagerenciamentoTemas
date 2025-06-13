@@ -6,19 +6,6 @@ Este projeto demonstra a implementação de um sistema de gerenciamento de temas
 
     Factory Method para criação de botões específicos para cada sistema operacional
 
-📦 Estrutura do Projeto
-
-src/
-├── builder/
-│   └── Tema.java          # Implementação do padrão Builder para criar temas
-├── factory/
-│   ├── Botao.java         # Interface para botões
-│   ├── BotaoMacOS.java    # Implementação de botão para MacOS
-│   ├── BotaoWindows.java  # Implementação de botão para Windows
-│   ├── GerenciadorDeTemas.java # Classe abstrata gerenciadora
-│   ├── GerenciadorMacOS.java   # Gerenciador para MacOS (Singleton)
-│   └── GerenciadorWindows.java # Gerenciador para Windows (Singleton)
-└── Main.java             # Demonstração do uso do sistema
 
 
 Funcionalidades
